@@ -1,0 +1,10 @@
+{
+  "name": "ai-learning-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 学习工作台",
+  "scripts": {"dev": "node server.mjs", "start": "node server.mjs"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"@openai/codex-sdk": "^0.166.0"}
+}
