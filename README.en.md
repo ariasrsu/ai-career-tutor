@@ -2,12 +2,12 @@
 
 [简体中文](README.md) · [AI learning resources](#ai-learning-resources)
 
-AI Career Tutor is a local learning tool for people entering AI from backgrounds outside computer science. Work through a generative AI product case in the blackboard classroom, or use the standalone tutor skill to study concepts, practice exercises, and prepare for interviews.
+AI Career Tutor is a local learning tool for people entering AI from backgrounds outside computer science. Tell the tutor your target role, prior experience, and weekly study time. It can build a learning plan, design exercises, and help you check your progress through mock interviews. The blackboard classroom includes a complete example you can try right away.
 
 | I want to… | Start here |
 | --- | --- |
-| Learn how generative AI product managers work | [Start the classroom](#start-the-classroom) |
-| Practice with Codex, plan my learning, or do a mock interview | [Use the tutor skill on its own](#use-the-tutor-skill-on-its-own) |
+| Plan my learning, practice exercises, or do a mock interview | [Use the tutor skill](#use-the-tutor-skill-on-its-own) |
+| Try a complete example in the blackboard classroom | [Start the classroom](#start-the-classroom) |
 | Find AI books, courses, and papers, and download searchable excerpts | [Browse AI learning resources](#ai-learning-resources) |
 
 ## Start the classroom
@@ -25,9 +25,9 @@ Open [http://127.0.0.1:3000](http://127.0.0.1:3000). The server listens on your 
 
 For live tutoring, sign in to Codex on your machine and click **连接实时 AI 导师** (Connect to the live AI tutor). If you have the Codex CLI, use `codex login` to sign in and `codex login status` to check your session. Live tutoring requires a network connection and available usage. The classroom has no separate API key field.
 
-## Eight-week curriculum
+## Eight-week example curriculum
 
-Across 24 original lessons, you design a marketing asset generator for small and midsize businesses. Each lesson has two blackboard pages, teaching notes, a comprehension check, a transfer exercise, and a deliverable. The classroom and lesson content are in Chinese.
+The classroom includes a sample curriculum for generative AI product managers. Its 24 lessons use a marketing asset generator for small and midsize businesses to show how a learning goal can become topics, exercises, and a portfolio project. Each lesson has two blackboard pages, teaching notes, a comprehension check, a transfer exercise, and a deliverable. The classroom and lesson content are in Chinese.
 
 | Week | Module | What you will make |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ Across 24 original lessons, you design a marketing asset generator for small and
 | 7 | Delivery and growth | A cost, funnel, and launch plan |
 | 8 | Portfolio project | A generative AI product requirements document and an interview-ready case study |
 
-Read the blackboard, try an exercise, then ask the tutor to review your own answer. Open **学习数据** (Learning data) to see your practice progress or export a JSON record.
+To try the example, read the blackboard, try an exercise, then ask the tutor to review your answer. Open **学习数据** (Learning data) to see your practice progress or export a JSON record. To plan your own curriculum, [use the tutor skill](#use-the-tutor-skill-on-its-own) to adapt the topics, exercises, and project to your goals.
 
 ## Use the tutor skill on its own
 
