@@ -1,6 +1,6 @@
 # AI Career Tutor
 
-[简体中文](README.md) · [Teaching sources and excerpts](resources/README.md)
+[简体中文](README.md) · [AI learning resources](#ai-learning-resources)
 
 AI Career Tutor is a local learning tool for people entering AI from backgrounds outside computer science. Work through a generative AI product case in the blackboard classroom, or use the standalone tutor skill to study concepts, practice exercises, and prepare for interviews.
 
@@ -8,7 +8,7 @@ AI Career Tutor is a local learning tool for people entering AI from backgrounds
 | --- | --- |
 | Learn how generative AI product managers work | [Start the classroom](#start-the-classroom) |
 | Practice with Codex, plan my learning, or do a mock interview | [Use the tutor skill on its own](#use-the-tutor-skill-on-its-own) |
-| Find the readings, citations, and excerpts from episode two | [Teaching resources from episode two](#teaching-resources-from-episode-two) |
+| Find AI books, courses, and papers, and download searchable excerpts | [Browse AI learning resources](#ai-learning-resources) |
 
 ## Start the classroom
 
@@ -56,13 +56,13 @@ The standalone skill covers **AI product management, AI operations, and AI appli
 - **Plan your learning.** I'm moving from content operations into AI product management and can study five hours a week. Give me a two-week plan with a deliverable for each week.
 - **Practice an interview.** Use this job description and my actual project experience for a mock interview. Ask one question at a time and give feedback and a follow-up after I answer.
 
-## Teaching resources from episode two
+## AI learning resources
 
-The [teaching resources page](resources/README.md) lists **34 sources** with author credits, official access links, and licensing notes. The public dataset covers **28,452 source-location records**. **3,557 include short excerpts** and the remaining **24,895 provide source locations**.
+[Browse 34 AI learning resources](resources/README.md), including books, courses, papers, and practical guides. The catalog lists the author, official access link, and licensing notes for each source. Follow the official links to read the complete materials.
 
-- [Download the dataset (JSONL.GZ)](https://raw.githubusercontent.com/ariasrsu/ai-career-tutor/main/resources/fragments.jsonl.gz). Extract it to search with a tool that can read JSONL.
-- [Download the source catalog (JSON)](resources/sources.json). Use `source_id` to look up the title, author, license, and access link. Get complete materials from the author, publisher, or official project.
-- **The classroom library** accepts your own Markdown or TXT notes. An indexed textbook library requires a separate local setup. You can browse the published dataset independently of the classroom.
+- [Download the excerpts and source index (JSONL.GZ)](https://raw.githubusercontent.com/ariasrsu/ai-career-tutor/main/resources/fragments.jsonl.gz). **3,557 entries include short excerpts**, and **24,895 contain source locations only**. Extract the file to search it with a tool that supports JSONL.
+- [View the machine-readable source catalog (JSON)](resources/sources.json). Use `source_id` to look up the title, author, license, and access link.
+- **Use your own materials in class.** Import Markdown or TXT notes into the classroom library. You can browse the download on its own. Searching textbooks inside the classroom requires a local index.
 
 To connect a textbook index to the classroom, set `KNOWLEDGE_INDEX_SCRIPT` to a Python program that supports `status`, `search`, and `files` and returns JSON. See [classroom/server.mjs](classroom/server.mjs) for the interface.
 
@@ -87,6 +87,6 @@ To connect a textbook index to the classroom, set `KNOWLEDGE_INDEX_SCRIPT` to a 
 | --- | --- |
 | [classroom/](classroom/) | Chinese classroom, curriculum data, and local server |
 | [SKILL.md](SKILL.md) and [references/](references/) | Standalone tutor skill and rules for teaching, evidence, knowledge sources, and interviews |
-| [resources/](resources/) | Episode two source catalog, excerpt download, and third-party license notices |
+| [resources/](resources/) | AI learning resources, downloadable excerpts and source index, and third-party licenses |
 
 Teaching excerpts retain their original licenses. See the [source catalog](resources/README.md) for details. The repository currently has no declared project-wide open-source license for its code.

@@ -1,8 +1,12 @@
-# 第二期 AI 导师教材片段
+# AI 学习资源
 
-这份发布包含视频里的 **28,452 条位置记录**，覆盖 **34 组资料**。其中 **3,557 条**带短摘录，来自 **8 组**许可覆盖公开分享的资料。其他条目提供来源 ID 和原文位置。教材原文件请从下表的官方入口获取，PDF 位置是文件页序。版本不同可能导致页码变化。
+[返回项目首页](../README.md) · [English overview](../README.en.md#ai-learning-resources)
 
-- [下载片段包（JSONL.GZ）](https://raw.githubusercontent.com/ariasrsu/ai-career-tutor/main/resources/fragments.jsonl.gz)
+这里汇总了 **34 组 AI 学习资料**，包括书籍、课程、论文和实践指南。想找完整资料，可以从下表打开作者、出版社或项目官网。想快速查找某个概念，可以下载索引搜索摘录，再按出处回到原文。
+
+索引共有 **28,452 条记录**。其中 **3,557 条带短摘录**，来自 8 组允许分享相应内容的资料。其余 **24,895 条**提供资料和原文位置。PDF 页序以所列版本为准。
+
+- [下载摘录与出处索引（JSONL.GZ）](https://raw.githubusercontent.com/ariasrsu/ai-career-tutor/main/resources/fragments.jsonl.gz)
 - [来源、作者和许可（JSON）](sources.json)
 
 下载并解压后，每行是一条 JSON 记录。使用 `source_id` 关联来源表，`locator` 是页序、Notebook 单元或行号。含 `excerpt` 的条目才有正文。部分上游 Git 项目还提供固定提交的 `source_file_url`。可以将文件交给支持 JSONL 的 Agent，先按 `excerpt` 检索，再按 `source_id` 查作者、书名和来源。课堂的内置教材库需要另外接入本地索引。

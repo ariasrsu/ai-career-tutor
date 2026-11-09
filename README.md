@@ -1,6 +1,6 @@
 # AI 转行导师
 
-[English](README.en.md) · [教材来源与片段](resources/README.md)
+[English](README.en.md) · [AI 学习资源](resources/README.md)
 
 一套面向非计算机专业背景学习者的本地 AI 学习工具。你可以沿着黑板课堂完成一个 AIGC 产品案例，也可以单独使用导师 Skill 学概念、做练习和模拟面试。
 
@@ -8,7 +8,7 @@
 | --- | --- |
 | 系统学 AIGC 产品经理的工作方法 | [启动黑板课堂](#启动黑板课堂) |
 | 在 Codex 里练习、制定学习路线或模拟面试 | [独立使用导师 Skill](#独立使用导师-skill) |
-| 找第二期视频里的教材、出处和短摘录 | [第二期教材资源](#第二期教材资源) |
+| 找 AI 书籍、课程和论文，下载可检索的摘录 | [浏览 AI 学习资源](#ai-学习资源) |
 
 ## 启动黑板课堂
 
@@ -56,13 +56,13 @@ npm run dev
 - **定路线。** 我从内容运营转 AI 产品，每周能投入 5 小时。帮我定两周任务，写清每周要交付什么。
 - **练面试。** 根据这份 JD 和我的真实项目经历做模拟面试。每次问一道题，等我回答再给反馈和追问。
 
-## 第二期教材资源
+## AI 学习资源
 
-[教材资源页](resources/README.md) 汇总 **34 组来源**，列出作者、官方获取入口和许可说明。公开数据覆盖 **28,452 条出处位置**，其中 **3,557 条带短摘录**，其余 **24,895 条提供出处位置**。
+[浏览 34 组 AI 学习资源](resources/README.md)，查找书籍、课程、论文和实践指南。每组资料都列出作者、官方获取入口和许可说明。想读完整内容，可以从资源页直接前往作者、出版社或项目官网。
 
-- [下载片段包（JSONL.GZ）](https://raw.githubusercontent.com/ariasrsu/ai-career-tutor/main/resources/fragments.jsonl.gz)，解压后可交给支持 JSONL 的工具检索。
-- [下载来源清单（JSON）](resources/sources.json)，用 `source_id` 查书名、作者、许可和获取入口。全文从作者、出版社或项目官网获取。
-- **课堂里的资料库**支持导入自己的 Markdown 或 TXT 笔记。正式教材索引需要自行接入，片段下载包可以独立查阅。
+- [下载摘录与出处索引（JSONL.GZ）](https://raw.githubusercontent.com/ariasrsu/ai-career-tutor/main/resources/fragments.jsonl.gz)。**3,557 条带短摘录**，另有 **24,895 条只记录原文位置**。解压后可用支持 JSONL 的工具搜索。
+- [查看机器可读的来源清单（JSON）](resources/sources.json)。用 `source_id` 查资料标题、作者、许可和获取入口。
+- **在课堂里使用自己的资料**。在「资料库」导入 Markdown 或 TXT 笔记。下载包可单独查阅，课堂内的教材检索需要接入本地索引。
 
 若要给课堂接入自己的正式教材索引，可将 `KNOWLEDGE_INDEX_SCRIPT` 指向一个支持 `status`、`search` 和 `files` 并返回 JSON 的 Python 程序。接口行为见 [classroom/server.mjs](classroom/server.mjs)。
 
@@ -87,6 +87,6 @@ npm run dev
 | --- | --- |
 | [classroom/](classroom/) | 中文课堂页面、课程数据和本地服务 |
 | [SKILL.md](SKILL.md) 和 [references/](references/) | 独立导师 Skill 及教学、证据、资料库和面试规则 |
-| [resources/](resources/) | 第二期教材来源、片段包与第三方许可 |
+| [resources/](resources/) | AI 学习资源、摘录与出处索引、第三方许可 |
 
 教材摘录沿用各自的原始许可证，详见 [教材来源表](resources/README.md)。仓库目前没有为项目代码声明统一的开源许可证。
